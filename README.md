@@ -1,4 +1,4 @@
-#HW First-Name Last-Name
+#HW3 First-Name Last-Name
 TODO - Update your name in this readme.
 
 TODO - Add a badge from travis CI here
@@ -6,7 +6,7 @@ TODO - Add a badge from travis CI here
 ##Problem statement:
 Design and implement an ADT that represents a triangle. The data for the ADT must include the three sides of the triangle. This data must be in the private section of the class that implements the ADT.
 
-you must write code in the class **Triangle**, inside `triangle.hpp`. The class **Triangle** inherits from the interface **triangle_interface**
+you must write code in the class **Triangle**, inside `triangle.hpp`. The class **Triangle** inherits from the interface **triangle_Interface**
 Include at least two initialization operations(constructors): 
 
 * One that provides default values for the ADT’s data (default constructor) - default values should be set to be (3, 4, 5)
@@ -14,7 +14,7 @@ Include at least two initialization operations(constructors):
     * When inputs don't form a triangle, set values of all sides to 0.
     * Reference: http://www.wikihow.com/Determine-if-Three-Side-Lengths-Are-a-Triangle
 
-The ADT also must include operations that:( take a look inside the `triangle_interface.hpp`):
+The ADT also must include operations that:( take a look inside the `triangle_Interface.hpp`):
 
 * Retrieve(get) the values from the ADT
 * Change(set) the values of the ADT 
@@ -51,7 +51,7 @@ Please **DO NOT MODIFY** any other files. Modifying any other file will result i
     * You can now use this configuration for better test display by CLion.
 
 ## Note
-* The program would not compile at first because the class hasn't been completed in `triangle.h`
+* The program would not compile at first because the class hasn't been completed in `triangle.hpp`
 * It is required that you add your **name** and **travis ci badge** to your readme.
 * Check the logs from Travis to verify the correctness of your program.
 * The Initial code will **not necessarily** compile. You will have to write the necessary code.
