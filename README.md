@@ -1,4 +1,4 @@
-#HW1 First-Name Last-Name
+#HW First-Name Last-Name
 TODO - Update your name in this readme.
 
 TODO - Add a badge from travis CI here
@@ -9,7 +9,6 @@ Design and implement an ADT that represents a triangle. The data for the ADT mus
 
 you must write code in the class **Triangle**, inside `triangle.h`. The class **Triangle** inherits from the interface **triangle_interface**
 Include at least two initialization operations(constructors): 
-
 
 * One that provides default values for the ADT’s data (default constructor) - default values should be set to be (3, 4, 5)
 * Another that sets this data to client-supplied values (parametrized constructor)
@@ -46,7 +45,7 @@ Please **DO NOT MODIFY** any other files. Modifying any other file will result i
     * 03_runHW1TriangleAreaTests
     * 04_runHW1TriangleCheckTests
 * To use Clion's Google test configuration:
-    * Goto Run->Edit Configurations..
+    * Goto Run->Edit Configurations..
     * Select the "+" icon on the top left to add a new configuration of type "Google Test"
     * Enter in a name, and also target configuration as any one of the above
     * Select Ok.
