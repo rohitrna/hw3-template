@@ -4,10 +4,9 @@ TODO - Update your name in this readme.
 TODO - Add a badge from travis CI here
 
 ##Problem statement:
-
 Design and implement an ADT that represents a triangle. The data for the ADT must include the three sides of the triangle. This data must be in the private section of the class that implements the ADT.
 
-you must write code in the class **Triangle**, inside `triangle.h`. The class **Triangle** inherits from the interface **triangle_interface**
+you must write code in the class **Triangle**, inside `triangle.hpp`. The class **Triangle** inherits from the interface **triangle_interface**
 Include at least two initialization operations(constructors): 
 
 * One that provides default values for the ADT’s data (default constructor) - default values should be set to be (3, 4, 5)
@@ -15,7 +14,7 @@ Include at least two initialization operations(constructors):
     * When inputs don't form a triangle, set values of all sides to 0.
     * Reference: http://www.wikihow.com/Determine-if-Three-Side-Lengths-Are-a-Triangle
 
-The ADT also must include operations that:( take a look inside the `triangle_interface.h`):
+The ADT also must include operations that:( take a look inside the `triangle_interface.hpp`):
 
 * Retrieve(get) the values from the ADT
 * Change(set) the values of the ADT 
@@ -32,7 +31,7 @@ The ADT also must include operations that:( take a look inside the `triangle_int
     * Double
 
 ## Files to work on
-You are required to work on `README.md` and `/src/triangle.h`
+You are required to work on `README.md` and `/src/triangle.hpp`
 You can also modify `main.cpp` to debug your program.
 Please **DO NOT MODIFY** any other files. Modifying any other file will result in penalty to your grade.
 
