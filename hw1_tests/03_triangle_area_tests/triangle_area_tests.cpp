@@ -14,7 +14,7 @@ int maxPoints = 20;
 TEST(hw1TriangleTest, simpleAreaTest){
 
     Triangle<int> t1(3, 4, 5);
-    EXPECT_EQ(t1.getArea(), 6);
+    EXPECT_EQ(t1.getArea(), 9);
 
 
     if (!HasFailure()) {
