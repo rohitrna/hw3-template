@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
-project(hw1)
+
+project(hw1_library)
 
 ## Check for Windows ##
 if (WIN32) # true if windows (32 and 64 bit)
@@ -9,12 +10,10 @@ else ()
 endif ()
 
 
-set(SOURCE_FILES main.cpp)
+set(HEADER_FILES triangle.hpp triangle_Interface.hpp)
 
-add_executable(hw1_run ${SOURCE_FILES})
+set(SOURCE_FILES triangle.cpp)
 
-include_directories(src)
+add_library(hw1_library ${SOURCE_FILES} ${HEADER_FILES})
 
-add_subdirectory(src)
-add_subdirectory(hw1_tests)
-
+set_target_properties(hw1_library PROPERTIES LINKER_LANGUAGE CXX)
